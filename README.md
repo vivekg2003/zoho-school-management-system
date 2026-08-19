@@ -15,7 +15,7 @@ Assignment: Zoho Developer Internship
 
 > **Note for Evaluator:**
 > 1. Open `https://crm.zoho.com` in an Incognito/Private window and sign in with the credentials above.
-> 2. To access the **Zoho Creator School Parent Application**, Simply (top-left 9 dots / side panel) navigate to Creator inside the same signed-in browser session.
+> 2. To access the **Zoho Creator School Parent Application**, Simply navigate to Creator inside the same signed-in browser session.
 ---
 
 ## 📌 Architecture Overview
