@@ -29,4 +29,6 @@ Assignment: Zoho Developer Internship
 * [01. Data Structure & Relationships (docs/01-data-structure.md)](./docs/01-data-structure.md)
 * [02. CRM – Creator Integration (docs/02-crm-creator-integration.md)](./docs/02-crm-creator-integration.md)
 * [03. Additional Feature: Low Attendance Warning (docs/03-additional-feature.md)](./docs/03-additional-feature.md)
-* [Deluge Scripts (scripts/)](./scripts/)
+* **Deluge Scripts:**
+  * [checkLowAttendance.dg](./scripts/checkLowAttendance.dg)
+  * [update_fee_structure_amount.dg](./scripts/update_fee_structure_amount.dg)
