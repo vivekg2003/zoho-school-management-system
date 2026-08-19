@@ -8,11 +8,9 @@ Assignment: Zoho Developer Internship
 
 ## 🔗 Submission Access Links
 
-| Submission Item | Access URL / Details |
-| :--- | :--- |
-| **Zoho CRM Implementation** | **URL:** [https://crm.zoho.com](https://crm.zoho.com)<br>**Credentials:** `your-email@example.com` / `TemporaryPassword` |
-| **Zoho Creator Parent App** | [Direct Parent Portal Link](https://creatorapp.zoho.com/your-app-link) |
-| **Admission Webform** | [Live Admission Webform Link](https://crm.zoho.com/your-webform-link) |
+| Resource | Access URL / Identifier | Credentials / Mode |
+| :--- | :--- | :--- |
+| **Zoho CRM & Creator Login** | [https://crm.zoho.com](https://crm.zoho.com) | **Use Credentials:**<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Email:** `gauriii.sharma929@gmail.com`<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Password:** `Recruiter_2026`
 
 ---
 
