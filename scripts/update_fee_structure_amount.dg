@@ -1,0 +1,19 @@
+void automation.update_fee_structure_amount(Int feePaymentId)
+{
+    feePaymentInfo = zoho.crm.getRecordById("Fee_Payments",feePaymentId);
+    feeStructureId = feePaymentInfo.get("Fee_Structure").get("id");
+ 
+    searchCriteria = "(Fee_Structure:equals:" + feeStructureId + ")";
+    allPayments = zoho.crm.searchRecords("Fee_Payments",searchCriteria);
+ 
+    totalPaid = 0;
+    for each payment in allPayments
+    {
+        totalPaid = totalPaid + payment.get("Amount_Paid");
+    }
+ 
+    updateMap = Map();
+    updateMap.put("Amount_Paid",totalPaid);
+    updateResp = zoho.crm.updateRecord("Fee_Structures",feeStructureId,updateMap);
+    info updateResp;
+}
