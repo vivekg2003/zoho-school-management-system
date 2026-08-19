@@ -10,8 +10,7 @@ Assignment: Zoho Developer Internship
 
 | Resource | Access URL / Identifier | Credentials / Mode |
 | :--- | :--- | :--- |
-| **Zoho CRM & Creator Login** | [https://crm.zoho.com](https://crm.zoho.com) | **Use Credentials:**<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Email:** `gauriii.sharma929@gmail.com`<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Password:** `Recruiter_2026`
-
+| **Zoho CRM & Creator Login** | [https://crm.zoho.com](https://crm.zoho.com) | Click on **Sign In** and use credentials:<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Email:** `gauriii.sharma929@gmail.com`<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Password:** `Recruiter_2026` |
 ---
 
 ## 📌 Architecture Overview
