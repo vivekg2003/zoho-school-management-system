@@ -1,0 +1,40 @@
+void automation.checkLowAttendance(String attendanceRecordId)
+{
+    // Fetch the attendance record that just got created
+    attendanceRec = zoho.crm.getRecordById("Attendance",attendanceRecordId);
+    studentId = attendanceRec.get("Student").get("id");
+ 
+    // Fetch all attendance records of this student
+    searchCriteria = "(Student:equals:" + studentId + ")";
+    allRecords = zoho.crm.searchRecords("Attendance",searchCriteria);
+ 
+    totalCount = allRecords.size();
+    presentCount = 0;
+ 
+    for each rec in allRecords
+    {
+        if(rec.get("Status") == "Present")
+        {
+            presentCount = presentCount + 1;
+        }
+    }
+ 
+    attendancePercent = 100.0;
+    if(totalCount > 0)
+    {
+        attendancePercent = (presentCount * 100.0) / totalCount;
+    }
+ 
+    newStatus = "Good";
+    if(attendancePercent < 75)
+    {
+        newStatus = "Low Attendance Warning";
+    }
+ 
+    // Update the Student record
+    updateMap = Map();
+    updateMap.put("Attendance_Percentage",attendancePercent);
+    updateMap.put("Attendance_Status",newStatus);
+    response = zoho.crm.updateRecord("Students",studentId,updateMap);
+    info response;
+}
