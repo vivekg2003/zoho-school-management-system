@@ -8,9 +8,14 @@ Assignment: Zoho Developer Internship
 
 ## 🔗 Submission Access Links
 
-| Resource | Access URL / Identifier | Credentials / Mode |
+| Resource | Access URL | Credentials / Mode |
 | :--- | :--- | :--- |
-| **Zoho CRM & Creator Login** | [https://crm.zoho.com](https://crm.zoho.com) | Click on **Sign In** and use credentials:<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Email:** `gauriii.sharma929@gmail.com`<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Password:** `Recruiter_2026` |
+| **Zoho CRM & Creator** | [https://crm.zoho.com](https://crm.zoho.com) | Click on **Sign In** and use:<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Email:** `gauriii.sharma929@gmail.com`<br>&nbsp;&nbsp;&nbsp;&nbsp;• **Password:** `Recruiter_2026` |
+| **Admission Webform** | https://fanciful-melomakarona-f54de3.netlify.app/ | Public Webform (Direct Submission) |
+
+> **Note for Evaluator:**
+> 1. Open `https://crm.zoho.com` in an Incognito/Private window and sign in with the credentials above.
+> 2. To access the **Zoho Creator School Parent Application**, Simply (top-left 9 dots / side panel) navigate to Creator inside the same signed-in browser session.
 ---
 
 ## 📌 Architecture Overview
